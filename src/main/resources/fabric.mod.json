@@ -1,0 +1,26 @@
+{
+    "schemaVersion": 1,
+    "id": "${mod_id}",
+    "version": "${version}",
+    "environment": "*",
+    "entrypoints": {
+        "server": []
+    },
+    "depends": {
+        "fabricloader": "*"
+    },
+    "mixins": [
+      "brigpatch.mixins.json"
+    ],
+    "name": "Brigadier Argument Fix",
+    "description": "Patches Brigadier to fix Issue #137",
+    "contact": {
+        "homepage": "https://wallentines.org/"
+    },
+    "authors": [
+        {
+            "name": "M1dnight_Ninja"
+        }
+    ],
+    "license": "LGPL"
+}
