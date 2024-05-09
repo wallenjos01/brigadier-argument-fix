@@ -31,10 +31,10 @@ repositories {
 }
 
 dependencies {
-    minecraft("com.mojang:minecraft:1.20.5-rc2")
+    minecraft("com.mojang:minecraft:1.20.6")
     mappings(loom.officialMojangMappings())
 
-    modImplementation("net.fabricmc:fabric-loader:0.15.10")
+    modImplementation("net.fabricmc:fabric-loader:0.15.11")
 
     testImplementation(platform(libs.junit.bom))
     testImplementation(libs.junit.jupiter)
